@@ -1,7 +1,17 @@
-This respository contains the VIPER v1.0 model developed by Sachin A. Reddy and colleagues at the NASA Jet Propulsion Laboratory, California Institute of Technology and the UCL Mullard Space Science Laboratory.
+# Predictions of equatorial vertical plasma drift using TEC data and a neural network model
+> SA Reddy, X Pi, C Forsyth, A Aruliah, A Smith. Earth and Space Science 12 (6), e2024EA004167
 
-Users can access the trained VIPER model by pulling the repo and running run_model.ipynb. When installed correctly, this reproduces Figure 8 in the manuscript.
+## Overview
+The motion of plasma is responsible for transporting particles and energy from one region of Earth's ionosphere to another, changing its state, characteristics, and behavior. Over the years, studies have aimed to predict this plasma motion (drift), but most have focused on climatological patterns rather than daily or weather variations. To address this, the Vertical drIfts: Predicting Equatorial ionospheRic dynamics (VIPER) model has been developed. VIPER is a machine learning model that is trained on total electron content (TEC) data to predict the vertical plasma drift observed by the C/NOFS mission from 2009 to 2015. The uniqueness of VIPER is that it uses TEC data for the prediction, and the data is readily available. VIPER offers global coverage and uncertainty estimation capabilities. The next step for VIPER is to make predictions during geomagnetic storms.
+
+## Features
+- 🥇 VIPER is the first model to address daily predictions of vertical plasma drift on a global scale
+- ⚙️ The VIPER model is based on a multi-layer perceptron architecture and has uncertainty quantification built-in
+- 📊 Trained on ~930k samples of data from the C/NOFS mission across the period 2009–2015
+  
+## Use
+Users can access the trained VIPER model by pulling the repo and running ```run_model.ipynb```. When installed correctly, this reproduces Figure 8 in the manuscript.
 
 For further information, please see the corresponding manuscript: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024EA004167
 
-2025-06-25
+2025-07-23
