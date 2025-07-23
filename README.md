@@ -12,6 +12,7 @@ The motion of plasma is responsible for transporting particles and energy from o
 ## Use
 Users can access the trained VIPER model by pulling the repo and running ```run_model.ipynb```. When installed correctly, this reproduces Figure 8 in the manuscript.
 
-For further information, please see the corresponding manuscript: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024EA004167
+For further information, please see the corresponding manuscript: [VIPER Study](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024EA004167 "Load VIPER Study").
 
 2025-07-23
+
