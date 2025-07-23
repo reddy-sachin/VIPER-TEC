@@ -4,6 +4,11 @@
 ## Overview
 The motion of plasma is responsible for transporting particles and energy from one region of Earth's ionosphere to another, changing its state, characteristics, and behavior. Over the years, studies have aimed to predict this plasma motion (drift), but most have focused on climatological patterns rather than daily or weather variations. To address this, the Vertical drIfts: Predicting Equatorial ionospheRic dynamics (VIPER) model has been developed. VIPER is a machine learning model that is trained on total electron content (TEC) data to predict the vertical plasma drift observed by the C/NOFS mission from 2009 to 2015. The uniqueness of VIPER is that it uses TEC data for the prediction, and the data is readily available. VIPER offers global coverage and uncertainty estimation capabilities. The next step for VIPER is to make predictions during geomagnetic storms.
 
+<p align="center">
+  <img src="01-jan-14.gif" width="500" height="400">
+</p>
+
+
 ## Features
 - 🥇 VIPER is the first model to address daily predictions of vertical plasma drift on a global scale
 - ⚙️ The VIPER model is based on a multi-layer perceptron architecture and has uncertainty quantification built-in
