@@ -5,6 +5,10 @@ Prediction of equatorial vertical plasma drift from TEC using the VIPER neural n
 Reference manuscript:
 S. A. Reddy, X. Pi, C. Forsyth, A. Aruliah, A. Smith, *Earth and Space Science* 12(6), e2024EA004167.
 
+<p align="center">
+  <img src="01-jan-14.gif" width="500" height="400">
+</p>
+
 ## What this repo contains
 
 - `VIPER_model.pt`: serialized model architecture
